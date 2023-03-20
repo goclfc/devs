@@ -11,16 +11,16 @@ const We = () => {
       <div style={{borderBottom:'1px solid white'}}>
         <h2 className="text-3xl mb-4">Main team</h2>
         <div className="mb-4"> 
-            <h2 className="text-2xl mt-2 mb-2">George Daraselia</h2>
-            <p>Back end developer, currently working in Walt disnay company as senior back-end developer</p>
+            <h2 className="text-2xl mt-2 mb-2">George Darsalia</h2>
+            <p>A Senior Python Developer With A 7+ Years Of Experience</p>
         </div>
         <div className="mb-4">
             <h2 className="text-2xl mt-2 mb-2">George Takadze</h2>
-            <p>Dev ops, Ai developer,Machine Learning, currently working in IDK company as senior back-end developer</p>
+            <p> Back End an AI Developer, middle Python Developer With A 3+ Years Of Experience and 1+ DevOps Developer</p>
         </div>
         <div className="mb-4">
             <h2 className="text-2xl mt-2 mb-2">Gocha Berulava</h2>
-            <p>Front end developer, currently working in BSG company as senior Front-end developer</p>
+            <p>Front end developer, React.js Developer With A 3+ Years of experience</p>
         </div>
       </div>
       <div className="flex flex-col">
@@ -35,7 +35,7 @@ const We = () => {
         <div className="flex flex-wrap">
           <h2 className="text-2xl text-white w-full m-2">What we can do</h2>
           <p>You know what you want, have clear bussiness idea</p>
-          <p>We create technical documentation, ui/ux design</p> : <p className="ml-2 text-green-300">We do our job</p>
+          <p className="text-green-200 mr-2 ml-2">We create technical documentation, ui/ux design</p> : <p className="ml-2 text-green-300">We do our job</p>
         </div>
         <div className="flex flex-wrap">
           <h2 className="text-2xl text-white w-full m-2">What we can not do</h2>
