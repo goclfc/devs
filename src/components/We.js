@@ -1,6 +1,11 @@
 import phython_logo from "../resources/logos/phyton_white.png";
 import atom_logo from "../resources/logos/atom_white.png";
 import js_logo from "../resources/logos/js_white.png";
+import postgre_logo from "../resources/logos/postgre.png";
+import sql_logo from "../resources/logos/sql_logo.png";
+import linux_logo from "../resources/logos/linux_logo.png";
+import flask_logo from "../resources/logos/flask_logo.png";
+import node_logo from "../resources/logos/node_logo.png";
 const We = () => {
   return (
     <div className="we w-full flex flex-col text-white text-xl p-4">
@@ -60,18 +65,18 @@ const We = () => {
         <div className="pros w-1/2 border-2 p-4">
           <h2 className="text-center">Recent Projects</h2>
           <ul>
-            <li>Created dasshboard for Walt disney company, </li>
-            <li>some description of the projects </li>
-            <li>some description of the projects </li>
-            <li>some description of the projects </li>
-            <li>some description of the projects </li>
+            <li>Created Transguard system </li>
+            <li>Created Poker game </li>
+            <li>Created Smart home backend application </li>
+            <li>Created fully funcional E-commerce web application </li>
+            <li>Created Business simulation game </li>
             <li>some description of the projects </li>
             <li>some description of the projects </li>
             <li>some description of the projects </li>
             <li>some description of the projects </li>
           </ul>
         </div>
-        <div className="cons w-1/2 border-2 p-4 flex flex-wrap ">
+        <div className="cons w-1/2 border-2 p-4 flex flex-wrap justify-center">
           <h2 className="text-center w-full">Skillsets</h2>
           <div>
             <div
@@ -84,40 +89,99 @@ const We = () => {
             >
               <img src={phython_logo} />
             </div>
-            <div className="text-center">
-              Phyton
-            </div>
+            <div className="text-center">Phyton</div>
           </div>
           <div>
-          <div
-            className="logo_wrapper rounded-xl shadow-xl m-2"
-            style={{
-              width: "150px",
-              height: "150px",
-              border: "1px solid white",
-            }}
-          >
-            <img src={js_logo} />
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                border: "1px solid white",
+              }}
+            >
+              <img src={js_logo} />
+            </div>
+            <div className="text-center">Javascript</div>
           </div>
-          <div className="text-center">
-              Javascript
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                border: "1px solid white",
+              }}
+            >
+              <img src={atom_logo} />
             </div>
-            </div>
-            <div>
-          <div
-            className="logo_wrapper rounded-xl shadow-xl m-2"
-            style={{
-              width: "150px",
-              height: "150px",
-              border: "1px solid white",
-            }}
-          >
-            <img src={atom_logo} />
+            <div className="text-center">React</div>
           </div>
-          <div className="text-center">
-              React
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                border: "1px solid white",
+              }}
+            >
+              <img src={postgre_logo} />
             </div>
+            <div className="text-center">PostgreSql</div>
+          </div>
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                border: "1px solid white",
+              }}
+            >
+              <img src={sql_logo} />
             </div>
+            <div className="text-center">Sql</div>
+          </div>
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                border: "1px solid white",
+              }}
+            >
+              <img src={linux_logo} />
+            </div>
+            <div className="text-center">Linux</div>
+          </div>
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                border: "1px solid white",
+              }}
+            >
+              <img src={flask_logo} />
+            </div>
+            <div className="text-center">Flask</div>
+          </div>
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                border: "1px solid white",
+              }}
+            >
+              <img src={node_logo} />
+            </div>
+            <div className="text-center">Node.js</div>
+          </div>
         </div>
       </div>
     </div>
