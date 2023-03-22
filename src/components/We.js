@@ -6,9 +6,13 @@ import sql_logo from "../resources/logos/sql_logo.png";
 import linux_logo from "../resources/logos/linux_logo.png";
 import flask_logo from "../resources/logos/flask_logo.png";
 import node_logo from "../resources/logos/node_logo.png";
+import fastapi_logo from "../resources/logos/fastapi_logo.png";
+import git_logo from "../resources/logos/git_logo.png";
+import pandas_logo from "../resources/logos/pandas_logo.png";
+import numpy_logo from "../resources/logos/numpy_logo.png";
 const We = () => {
   return (
-    <div className="we w-full flex flex-col text-white text-xl p-4">
+    <div className="we w-full flex flex-col text-white text-xl p-4 ">
       <h1 className="text-white text-3xl">Who we are</h1>
       <div>
         <p className="m-2">
@@ -16,7 +20,7 @@ const We = () => {
           aplications demanding on bussiness interest.
         </p>
       </div>
-      <div style={{ borderBottom: "1px solid white" }}>
+      <div style={{ borderBottom: "1px solid white"}}>
         <h2 className="text-3xl mb-4">Main team</h2>
         <div className="mb-4">
           <h2 className="text-2xl mt-2 mb-2">George Darsalia</h2>
@@ -25,7 +29,6 @@ const We = () => {
         <div className="mb-4">
           <h2 className="text-2xl mt-2 mb-2">George Takadze</h2>
           <p>
-            {" "}
             Back End an AI Developer, middle Python Developer With A 3+ Years Of
             Experience and 1+ DevOps Developer
           </p>
@@ -61,22 +64,32 @@ const We = () => {
           <p className="ml-2 text-red-300">We can do nothing</p>
         </div>
       </div>
-      <div className="prosNcons flex w-full mt-4">
-        <div className="pros w-1/2 border-2 p-4">
-          <h2 className="text-center">Recent Projects</h2>
-          <ul>
-            <li>Created Transguard system </li>
-            <li>Created Poker game </li>
-            <li>Created Smart home backend application </li>
-            <li>Created fully funcional E-commerce web application </li>
-            <li>Created Business simulation game </li>
-            <li>some description of the projects </li>
-            <li>some description of the projects </li>
-            <li>some description of the projects </li>
-            <li>some description of the projects </li>
+      <div className="flex flex-col mt-2 md:flex-row">
+        <div className="flex w-full border-2 p-2 flex-wrap md:w-1/2">
+          <h2 className="text-center w-full">Recent Projects</h2>
+          <ul >
+            <li>Transguard system </li>
+            <li>Poker game </li>
+            <li>Smart home backend application </li>
+            <li>Fully funcional E-commerce web application </li>
+            <li>Business simulation game </li>
+            <li>Stock Market Analytical Software </li>
+            <li>In House Management Software </li>
+            <li>
+              Web Application That Filters Cars That Passed Through Cameras By
+              Their Color, Model, Year, Number And So On{" "}
+            </li>
+            <li>Analytical Software To Sort The Products By Quality </li>
+            <li>
+              Software That Detects Wanted Vehicles While Passing Patrol Cars In
+              Front Of Their Dashboard Cameras.
+            </li>
+            <li>Authentication Software Replacing Third Party Member</li>
+            <li>Software for calculating and and creating data pipelines</li>
+            <li>And many more </li>
           </ul>
         </div>
-        <div className="cons w-1/2 border-2 p-4 flex flex-wrap justify-center">
+        <div className="flex w-full flex-wrap border-2 p-2 justify-center md:w-1/2">
           <h2 className="text-center w-full">Skillsets</h2>
           <div>
             <div
@@ -84,7 +97,7 @@ const We = () => {
               style={{
                 width: "150px",
                 height: "150px",
-                border: "1px solid white",
+                
               }}
             >
               <img src={phython_logo} />
@@ -97,7 +110,7 @@ const We = () => {
               style={{
                 width: "150px",
                 height: "150px",
-                border: "1px solid white",
+                
               }}
             >
               <img src={js_logo} />
@@ -110,7 +123,7 @@ const We = () => {
               style={{
                 width: "150px",
                 height: "150px",
-                border: "1px solid white",
+                
               }}
             >
               <img src={atom_logo} />
@@ -123,7 +136,7 @@ const We = () => {
               style={{
                 width: "150px",
                 height: "150px",
-                border: "1px solid white",
+                
               }}
             >
               <img src={postgre_logo} />
@@ -136,7 +149,7 @@ const We = () => {
               style={{
                 width: "150px",
                 height: "150px",
-                border: "1px solid white",
+                
               }}
             >
               <img src={sql_logo} />
@@ -149,7 +162,7 @@ const We = () => {
               style={{
                 width: "150px",
                 height: "150px",
-                border: "1px solid white",
+                
               }}
             >
               <img src={linux_logo} />
@@ -162,7 +175,7 @@ const We = () => {
               style={{
                 width: "150px",
                 height: "150px",
-                border: "1px solid white",
+                
               }}
             >
               <img src={flask_logo} />
@@ -175,12 +188,64 @@ const We = () => {
               style={{
                 width: "150px",
                 height: "150px",
-                border: "1px solid white",
+                
               }}
             >
               <img src={node_logo} />
             </div>
             <div className="text-center">Node.js</div>
+          </div>
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                
+              }}
+            >
+              <img src={fastapi_logo} />
+            </div>
+            <div className="text-center">Fastapi</div>
+          </div>
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                
+              }}
+            >
+              <img src={numpy_logo} />
+            </div>
+            <div className="text-center">NumPy</div>
+          </div>
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                
+              }}
+            >
+              <img src={git_logo} />
+            </div>
+            <div className="text-center">Git</div>
+          </div>
+          <div>
+            <div
+              className="logo_wrapper rounded-xl shadow-xl m-2"
+              style={{
+                width: "150px",
+                height: "150px",
+                
+              }}
+            >
+              <img src={pandas_logo} />
+            </div>
+            <div className="text-center">Pandas</div>
           </div>
         </div>
       </div>

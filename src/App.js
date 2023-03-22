@@ -8,7 +8,7 @@ import Landing from "./components/Landing";
 
 function App() {
   return (
-    <div className="App text-3xl bg-purple w-screen bg-black" style={{minHeight:'100%'}}>
+    <div className="App text-3xl bg-purple w-full bg-black" style={{minHeight:'100%'}}>
     <BrowserRouter>
       <Header />
       <Routes>
